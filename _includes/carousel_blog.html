@@ -17,12 +17,12 @@
             <!-- Set background for slide in css -->
             <div
             class="header-back"
-            style="background-image: url({{ '/static/assets/img/' | prepend: site.baseurl }}{{ site.data.index.banners[0].src }});"
-            title="{{ site.data.index.banners[0].title }}">
+            style="background-image: url({{ '/static/assets/img/' | prepend: site.baseurl }}{{ site.data.index.banners_blog[0].src }});"
+            title="{{ site.data.index.banners_blog[0].title }}">
             </div>
         </div>
 
-        {% for banner in site.data.index.banners offset:1 %}
+        {% for banner in site.data.index.banners_blog offset:1 %}
         <div class="item">
             <div class="container">
                 <div class="carousel-caption">

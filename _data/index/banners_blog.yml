@@ -1,0 +1,12 @@
+# carousel banners section
+# Add items for each banner image in the carousel
+#
+# Images are expected to be located in `static/assets/img/`.
+- src: banner_photos/benches.jpg
+  title: An abstract shot of benches
+
+- src: banner_photos/light.jpg
+  title: A light bulb
+
+- src: banner_photos/radio.jpg
+  title: The undershot of an old radio tower

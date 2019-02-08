@@ -1,29 +1,41 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
-    detail: Company A
-    i18n: company_a
+    detail: Protein Structure Lab, KSU
   desc:
-    detail: I worked at Company A ...
-    i18n: company_a_desc
+    detail: Improving super resolution solutions to handle time and space complexity within 3D microscopy image sources.
   date:
-    detail: Apr. 2016
-    i18n: company_a_date
+    detail: Fall 2018 - Present
   job:
-    detail: CTO
-    i18n: company_a_job
-  icon: fa-plus-square
+    detail: Research Assistant
+  icon: fas fa-flask
 
 - name:
-    detail: Company B
-    i18n: company_b
+    detail: Knowledge Discovery in Databases, KSU
   desc:
-    detail: I worked at Company B ...
-    i18n: company_b_desc
+    detail: Collaborating with clients and members of the lab to detect anomalies in drone images.
   date:
-    detail: Jun. 2015
-    i18n: company_b_date
+    detail: Spring 2018 - Present
   job:
-    detail: Full Stack Developer
-    i18n: company_b_job
-  icon: fa-plus-square
+    detail: Research Assistant
+  icon: fas fa-flask
+
+- name:
+    detail: Office of Educational Innovation and Evaluation, KSU
+  desc:
+    detail: Managed crucial parts of the business solution while identifying and delivering improvements.
+  date:
+    detail: Fall 2016 – Fall 2018
+  job:
+    detail: Student Developer
+  icon: fas fa-briefcase
+
+- name:
+    detail: Smart Environments, WSU
+  desc:
+    detail: Designed critical ground work to measure varying types of intelligence in machine learning algorithms.
+  date:
+    detail: Summer 2018
+  job:
+    detail: Research Assistant
+  icon: fas fa-flask

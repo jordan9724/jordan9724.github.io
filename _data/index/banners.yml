@@ -2,8 +2,12 @@
 # Add items for each banner image in the carousel
 #
 # Images are expected to be located in `static/assets/img/`.
-- src: landing/header_one.jpg
-  title: first banner image
 
-- src: landing/header_two.jpg
-  title: second banner image
+- src: landing/header_halite_pres_500.jpg
+  title: Introducing Halite to the ACM-SIGAI club
+
+- src: landing/header_pres_500.jpg
+  title: Presenting at our first ACM-SIGAI meeting
+
+- src: landing/header_WSU_500.jpg
+  title: Displaying WSU poster made during the summer
