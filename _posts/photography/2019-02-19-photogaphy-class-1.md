@@ -13,7 +13,7 @@ icon: fas fa-camera
 Canon EOS REBEL T5 + EF50mm f/1.8 STM  
 <small>f/</small>2.8 1/2000<small>s ISO</small>100 50.00<small>mm</small>
 
-![A wooden wall](/assets/img/photo_class/wood_wall.jpg){:class="img-responsive"}
+![A wooden wall](/static/assets/img/photo_class/wood_wall.jpg){:class="img-responsive"}
 
 ---
 
@@ -21,7 +21,7 @@ Canon EOS REBEL T5 + EF50mm f/1.8 STM
 Canon EOS REBEL T5 + EF50mm f/1.8 STM  
 <small>f/</small>2.8 1/2000<small>s ISO</small>100 50.00<small>mm</small>
 
-![Charcoal laying on the ground](/assets/img/photo_class/charcoal.jpg){:class="img-responsive"}
+![Charcoal laying on the ground](/static/assets/img/photo_class/charcoal.jpg){:class="img-responsive"}
 
 ---
 
@@ -29,7 +29,7 @@ Canon EOS REBEL T5 + EF50mm f/1.8 STM
 Canon EOS REBEL T5 + EF50mm f/1.8 STM  
 <small>f/</small>2.8 1/2000<small>s ISO</small>100 50.00<small>mm</small>
 
-![Rusty nails in a wooden wall](/assets/img/photo_class/nails.jpg){:class="img-responsive"}
+![Rusty nails in a wooden wall](/static/assets/img/photo_class/nails.jpg){:class="img-responsive"}
 
 ---
 
@@ -37,4 +37,4 @@ Canon EOS REBEL T5 + EF50mm f/1.8 STM
 Canon EOS REBEL T5 + EF50mm f/1.8 STM  
 <small>f/</small>2.8 1/2000<small>s ISO</small>100 50.00<small>mm</small>
 
-![Tag posted on a wooden poll](/assets/img/photo_class/tag.jpg){:class="img-responsive"}
+![Tag posted on a wooden poll](/static/assets/img/photo_class/tag.jpg){:class="img-responsive"}
