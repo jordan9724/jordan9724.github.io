@@ -1,5 +1,10 @@
 {% include analytics.html %}
 
+
+<!-- Main Scripts -->
+<script src="{{"/static/assets/app-20190220.min.js"| prepend: site.baseurl }}"></script>
+<script src="{{"/static/assets/blog-20190220.min.js"| prepend: site.baseurl }}"></script>
+
 {% if site.disqus %}
 <script id="dsq-count-scr" src="https://{{ site.disqus.name }}.disqus.com/count.js" async></script>
 {% endif %}

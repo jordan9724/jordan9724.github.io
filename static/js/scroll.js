@@ -18,6 +18,15 @@ $(document).ready(function() {
 var cbpAnimatedHeader = (function() {
     var changeHeaderOn = 200, scrollDebounce = 250;
 
+    if ($('.carousel').length === 0) {
+        changeHeaderOn = 0;
+        scrollDebounce = 250;
+
+        // Forces the navbar to show, and pushes the article down
+        $('.navbar').addClass('navbar-scroll');
+        $('.article').css('padding-top', '40px');
+    }
+
     function scrollPage() {
       $('.navbar-default').toggleClass('navbar-scroll', scrollY() >= changeHeaderOn);
     }
