@@ -2,7 +2,7 @@
 layout: post
 title:  "Light, Shadow and Unusual Angles"
 date:   2019-02-21
-desc: ""
+desc: "These images capture how light and shadows fall onto objects, turning every day items into something beautiful"
 keywords: "photo,image,light,shadow,black,white"
 categories: [photography]
 tags: [Photography]
