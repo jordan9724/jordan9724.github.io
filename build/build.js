@@ -19,8 +19,8 @@ cp('-f', 'node_modules/font-mfizz/dist/font-mfizz.svg', 'static/assets/');
 cp('-f', 'node_modules/font-mfizz/dist/font-mfizz.ttf', 'static/assets/');
 cp('-f', 'node_modules/font-mfizz/dist/font-mfizz.woff', 'static/assets/');
 
-cp('-f', 'node_modules/lightgallery/dist/fonts/*', 'static/assets/node_modules/lightgallery/dist/fonts/');
-cp('-f', 'node_modules/lightgallery/dist/img/*', 'static/assets/node_modules/lightgallery/dist/img/');
+cp('-f', 'node_modules/lightgallery/dist/fonts/*', 'static/assets/fonts/');
+cp('-f', 'node_modules/lightgallery/dist/img/*', 'static/assets/img/');
 
 // change link/src files to new file path
 sed('-i', /(.*)[0-9]{8}(.*)/, '$1' + nowDateStr + '$2', '_includes/index_head.html');
@@ -69,6 +69,9 @@ function compresscss(pagename, filename, filelist) {
                     if (propertyName == 'src' && propertyValue.indexOf('node_modules/font-mfizz/dist/') > -1) {
                         return propertyValue.replace('node_modules/font-mfizz/dist/', '');
                     }
+                    if (propertyName == 'src' && propertyValue.indexOf('node_modules/lightgallery/dist/') > -1) {
+                        return propertyValue.replace('node_modules/lightgallery/dist/', '');
+                    }
                     if (propertyName == 'background' && propertyValue.indexOf('static/img/') > -1) {
                         return propertyValue.replace('static/', '');
                     }
@@ -98,3 +101,6 @@ for (i = 0; i < CSSJSfiles.length; i++) {
 // Manual compression:
 compressjs('Preload Scripts', 'preload.min.js', ['node_modules/jquery/dist/jquery.js', 'node_modules/lightgallery/dist/js/lightgallery.js']);
 compressjs('Preload Index Scripts', 'preload_index.min.js', ['node_modules/chart.js/dist/Chart.js']);
+
+// Manual removals:
+// sed('-i', /.*node_modules\/lightgallery\/dist\/.*/, '', 'static/assets/app-' + nowDateStr + '.min.css');
