@@ -7,6 +7,7 @@ keywords: "photo,image,light,shadow,black,white"
 categories: [photography]
 tags: [Photography]
 icon: fas fa-camera
+type: photo_gallery
 ---
 
 # Wooden Wall

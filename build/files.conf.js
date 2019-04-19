@@ -5,8 +5,7 @@ module.exports = {
         prefix: 'app-',
         type: 'js',
         list: [
-            'node_modules/jquery/dist/jquery.js',
-            'static/js/bs3-typeahead.js',//
+            'static/js/bs3-typeahead.js',
             'node_modules/bootstrap/dist/js/bootstrap.js',
             'node_modules/pace-progress/pace.js',
             'node_modules/wowjs/dist/wow.js',
@@ -48,6 +47,7 @@ module.exports = {
             'node_modules/font-mfizz/dist/font-mfizz.css',
             'node_modules/gritter/jquery.gritter.css',
             'node_modules/pace-progress/themes/blue/pace-theme-flash.css',
+            'node_modules/lightgallery/dist/css/lightgallery.css',
         ]
     }]
 }

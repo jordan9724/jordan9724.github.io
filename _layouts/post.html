@@ -21,7 +21,19 @@ layout: default
                             {{ page.desc }}
                         </p>
                     </div>
-                    	{{ content }}
+                    {% if page.type == 'photo_gallery' %}
+                    <div id="lightgallery">
+                        {{ content }}
+                    </div>
+                    <script>
+                        $('img').wrap(function() {
+                          return '<a href="' + $( this ).attr('src') + '"></a>';
+                        });
+                        $("#lightgallery").lightGallery({selector: 'a'});
+                    </script>
+                    {% else %}
+                    {{ content }}
+                    {% endif %}
                     <hr>
                     <div class="row">
 <!--                        <div class="col-md-6">-->

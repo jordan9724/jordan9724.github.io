@@ -7,6 +7,7 @@ keywords: "photo,image,joiner"
 categories: [photography]
 tags: [Photography]
 icon: fas fa-camera
+type: photo_gallery
 ---
 
 # Row of Apples

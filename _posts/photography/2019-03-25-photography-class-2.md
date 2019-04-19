@@ -6,6 +6,7 @@ desc: "A look on how shutter speed and aperture can take drastically different p
 keywords: "photo,image,light,shadow,black,white"
 categories: [photography]
 tags: [Photography]
+type: photo_gallery
 icon: fas fa-camera
 ---
 
