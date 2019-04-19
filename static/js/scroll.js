@@ -18,7 +18,7 @@ $(document).ready(function() {
 var cbpAnimatedHeader = (function() {
     var changeHeaderOn = 200, scrollDebounce = 250;
 
-    if ($('.carousel').length === 0) {
+    if ($('.carousel-inner').length === 0) {
         changeHeaderOn = 0;
         scrollDebounce = 250;
 

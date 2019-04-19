@@ -21,7 +21,9 @@ cp('-f', 'node_modules/font-mfizz/dist/font-mfizz.woff', 'static/assets/');
 
 // change link/src files to new file path
 sed('-i', /(.*)[0-9]{8}(.*)/, '$1' + nowDateStr + '$2', '_includes/index_head.html');
+sed('-i', /(.*)[0-9]{8}(.*)/, '$1' + nowDateStr + '$2', '_includes/index_foot.html');
 sed('-i', /(.*)[0-9]{8}(.*)/, '$1' + nowDateStr + '$2', '_includes/head.html');
+sed('-i', /(.*)[0-9]{8}(.*)/, '$1' + nowDateStr + '$2', '_includes/foot.html');
 sed('-i', /(.*)[0-9]{8}(.*)/, '$1' + nowDateStr + '$2', '_includes/category.html');
 sed('-i', /(.*)[0-9]{8}(.*)/, '$1' + nowDateStr + '$2', '404.html');
 
@@ -89,3 +91,6 @@ for (i = 0; i < CSSJSfiles.length; i++) {
         compressjs(CSSJSfiles[i].name, filename, CSSJSfiles[i].list)
     }
 }
+
+// Manual compression:
+compressjs('Chart.js', 'Chart.min.js', ['node_modules/chart.js/dist/Chart.js']);

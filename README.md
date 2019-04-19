@@ -1,4 +1,4 @@
-# How to compile:
+# How to compile css and js files:
 `npm run build`
 
 # Running local server

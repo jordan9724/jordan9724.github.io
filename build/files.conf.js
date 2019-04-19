@@ -8,7 +8,6 @@ module.exports = {
             'node_modules/jquery/dist/jquery.js',
             'static/js/bs3-typeahead.js',//
             'node_modules/bootstrap/dist/js/bootstrap.js',
-            'node_modules/chart.js/dist/Chart.js',
             'node_modules/pace-progress/pace.js',
             'node_modules/wowjs/dist/wow.js',
             'static/js/scroll.js',
