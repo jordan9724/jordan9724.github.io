@@ -69,7 +69,7 @@ function compresscss(pagename, filename, filelist) {
                     if (propertyName == 'src' && propertyValue.indexOf('node_modules/font-mfizz/dist/') > -1) {
                         return propertyValue.replace('node_modules/font-mfizz/dist/', '');
                     }
-                    if (propertyName == 'src' && propertyValue.indexOf('node_modules/lightgallery/dist/') > -1) {
+                    if ((propertyName == 'src' || propertyName == 'background') && propertyValue.indexOf('node_modules/lightgallery/dist/') > -1) {
                         return propertyValue.replace('node_modules/lightgallery/dist/', '');
                     }
                     if (propertyName == 'background' && propertyValue.indexOf('static/img/') > -1) {
