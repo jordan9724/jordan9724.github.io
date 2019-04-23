@@ -96,7 +96,7 @@ honeycomb type structures][@cs231].
 
 ---
 
-![](/assets/img/machine_learning/weights.jpeg){:class="img-responsive"}
+![](/static/assets/img/machine_learning/weights.jpeg){:class="img-responsive"}
 
 *The 96 filters in the first convolution layer of [AlexNet][@alexnet]. Each filter is 11x11x3.*
 
@@ -138,7 +138,7 @@ may still be useful towards the end of your network near the fully-connected lay
 
 ---
 
-![](/assets/img/machine_learning/maxpool.jpeg){:class="img-responsive"}
+![](/static/assets/img/machine_learning/maxpool.jpeg){:class="img-responsive"}
 
 *[An example of max pooling being used with a 2x2 filter and a stride of 2][@cs231]. The dimensionality of the matrix on the left
 is reduced from 4x4 to 2x2 on the right.*
