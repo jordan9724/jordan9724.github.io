@@ -32,7 +32,7 @@ adjust different parameters.
 # Convolutions
 
 What makes a convolutional neural network differ from a neural network is due to their use of convolutions. A way
-to think of a convolution is they are primarily used to find how similar a **filter** is to an area of an image. This is
+to think of a convolution is they are primarily used to find how similar a filter is to an area of an image. This is
 not exactly what convolutions accomplish, and can be more accurately described as [a process that picks up a signal in
 images][@skymind]. The signal it picks up is commonly known as a [feature][@skymind], and can be something as simple as
 a horizontal line.
@@ -41,7 +41,7 @@ The math behind convolving a filter and an area of an image is pretty simple. Ty
 7x7 filters in your CNN architecture since [VGGNet][@vggnet] and [ResNet][@resnet] among others showed you don't need
 anything larger than a 3x3 filter. That being said, the process of convolving a 3x3 filter with an image begins by
 taking a 3x3 area of the image (for example, the top left) and multiplying each value in the image segment with the
-corresponding position in the filter. Once the you get the nine multiplies numbers, you add them all up to get one final
+corresponding position in the filter. Once the you get the nine multiplied numbers, you add them all up to get one final
 value which is known as an [activation][@cs231].
 
 ---
@@ -187,7 +187,7 @@ Used in regular neural networks, [fully-connected layers have neurons which are 
 in the previous layer][@cs231]. They are typically found just at the end of the network and are used as the last layer
 that decides the output. In Keras, fully-connected is referred to as a dense layer, and takes in the parameters `units`
 and `activation`. The `units` parameter will be the number of output units, where the `activation` will likely remain
-`"relu"` unless it is the final layer in which case it should be `softmax`. The following finishes off the architecture
+`"relu"` unless it is the final layer in which case it should be `"softmax"`. The following finishes off the architecture
 of the CNN built thoughout this blog. It incorporates fully-connected layers as well as a flattening of the final
 activation map. The `Flatten()` function simply turns a 3-dimensional tensor into a 1-dimensional fully-connected layer.
 The final dense layer will output to 10 classes, in the case you have a classifier that is deciding between ten classes.
